@@ -1,8 +1,9 @@
-#include <stdio.h>
+//Author: Byongchul Hur Bmh6008@psu.edu 
+  #include <stdio.h>
 #include <readline/readline.h>
 
 int main(void) {
- char *name = readline("Enter your name: ");
-  printf("Hello, %s!\n",name);
+ char *temp = readline("Enter temperature in celsius: ");
+  printf("Hello, %s!\n",temp);
   return 0;
 }
