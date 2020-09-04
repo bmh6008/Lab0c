@@ -3,7 +3,7 @@
 #include <readline/readline.h>
 
 int main(void) {
- char *temp = readline("Enter temperature in celsius: ");
+ char *temp = readline("Enter your name: ");
   printf("Hello, %s!\n",temp);
   return 0;
 }
